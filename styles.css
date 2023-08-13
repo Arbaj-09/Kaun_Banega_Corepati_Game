@@ -1,5 +1,3 @@
-/* styles.css */
-
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -60,7 +58,7 @@ h1 {
     margin-bottom: 10px;
 }
 
-.next-button, .restart-button {
+.next-button, .restart-button, .made-by-arbaj {
     background-color: #3498db;
     color: #fff;
     border: none;
@@ -72,7 +70,7 @@ h1 {
     transition: background-color 0.2s;
 }
 
-.next-button:hover, .restart-button:hover {
+.next-button:hover, .restart-button:hover, .made-by-arbaj:hover {
     background-color: #2980b9;
 }
 
@@ -86,7 +84,14 @@ h1 {
     font-size: 20px;
 }
 
-.restart-button {
-    background-color: #e74c3c;
+.restart-button, .made-by-arbaj {
     margin-top: 20px;
+}
+
+.made-by-arbaj {
+    background-color: #2ecc71;
+}
+
+.made-by-arbaj:hover {
+    background-color: #27ae60;
 }
