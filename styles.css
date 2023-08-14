@@ -84,12 +84,13 @@ h1 {
     font-size: 20px;
 }
 
-.restart-button, .made-by-arbaj {
+.restart-button {
     margin-top: 20px;
 }
 
 .made-by-arbaj {
     background-color: #2ecc71;
+    margin-top: 20px;
 }
 
 .made-by-arbaj:hover {
